@@ -1,0 +1,24 @@
+{
+  "name": "ui-test",
+  "version": "1.0.0",
+  "description": "This is a Demo Test for DGauge",
+  "main": "dgauge-cypress-test.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --spec **/*.spec.js --browser chrome",
+    "cypress:run:firefox": "cypress run --spec **/*.spec.js --browser firefox"
+  },
+  "keywords": [
+    "Cypress",
+    "Automated Test",
+    "Acceptance Test",
+    "End-To-End Test"
+  ],
+  "author": "Femi Ajiboye",
+  "license": "ISC",
+  "devDependencies": {
+    "browserslist": "^4.19.3",
+    "cypress": "^9.5.0"
+  }
+}
